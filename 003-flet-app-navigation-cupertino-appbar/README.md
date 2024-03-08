@@ -75,7 +75,7 @@ command for deploy web
 ---
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_flet_app_web_1.png" alt="ss_flet_app_web_1" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_web_2.png" alt="ss_flet_app_web_2" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
 
