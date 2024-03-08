@@ -11,7 +11,7 @@ def main(page: ft.Page):
     page.appbar = ft.AppBar(
         leading=ft.Icon(ft.icons.PALETTE),
         leading_width=40,
-        title=ft.Text("AppBar Example"),
+        title=ft.Text("AppBar Test"),
         center_title=False,
         bgcolor=ft.colors.SURFACE_VARIANT,
         actions=[
@@ -20,7 +20,7 @@ def main(page: ft.Page):
             ft.PopupMenuButton(
                 items=[
                     ft.PopupMenuItem(text="Item 1"),
-                    ft.PopupMenuItem(),  # divider
+                    ft.PopupMenuItem(),  
                     ft.PopupMenuItem(
                         text="Checked item", checked=False, on_click=check_item_clicked
                     ),

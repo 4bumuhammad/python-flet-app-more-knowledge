@@ -31,7 +31,7 @@
         page.appbar = ft.AppBar(
             leading=ft.Icon(ft.icons.PALETTE),
             leading_width=40,
-            title=ft.Text("AppBar Example"),
+            title=ft.Text("AppBar Test"),
             center_title=False,
             bgcolor=ft.colors.SURFACE_VARIANT,
             actions=[
@@ -40,7 +40,7 @@
                 ft.PopupMenuButton(
                     items=[
                         ft.PopupMenuItem(text="Item 1"),
-                        ft.PopupMenuItem(),  # divider
+                        ft.PopupMenuItem(),  
                         ft.PopupMenuItem(
                             text="Checked item", checked=False, on_click=check_item_clicked
                         ),
@@ -84,14 +84,14 @@ command for deploy web
 ### &#x1F3C5; Result :
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_flet_app_desk_1.png" alt="ss_flet_app_desk_1" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_desk_2.png" alt="ss_flet_app_desk_2" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">desktop apps</p>
 
 ---
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_flet_app_web_1.png" alt="ss_flet_app_web_1" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_web_2.png" alt="ss_flet_app_web_2" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
 
