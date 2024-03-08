@@ -68,7 +68,7 @@ command for deploy web
 ### &#x1F3C5; Result :
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_flet_app_desk_1.png" alt="ss_flet_app_desk_1" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_desk_2.png" alt="ss_flet_app_desk_2" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">desktop apps</p>
 
