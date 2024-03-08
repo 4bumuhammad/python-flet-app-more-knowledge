@@ -31,4 +31,8 @@ Reference : `https://flet-controls-gallery.fly.dev`
    &#x1FAA2; <a href="./006-flet-app-title_text-horizontal_alignment">Link to view entire 006-flet-app-title_text-horizontal_alignment</a>
 </div>
 
+<div align="left">
+   &#x1FAA2; <a href="./007-flet-app-counter">Link to view entire 007-flet-app-counter</a>
+</div>
+
 ---
