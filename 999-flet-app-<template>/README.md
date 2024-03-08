@@ -45,7 +45,7 @@ command for deploy web
 ---
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_fleunder_construction_smallt_app_web_1.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
 
