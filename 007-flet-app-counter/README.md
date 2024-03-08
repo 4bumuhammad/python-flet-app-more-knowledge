@@ -87,6 +87,43 @@ command for deploy desktop app
 ---
 
 
+
+## &#x1F3C6; Application deployment with Docker container
+
+    ❯ docker build -t flet-testapp .
+
+    ❯ docker run -d --name flet-testapp-svc -p 8080:8888 flet-testapp
+
+
+
+    # list
+
+    ❯ docker images
+
+
+    ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
+
+
+<p align="center">
+    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+</p>
+<p align="center">web | app container</p>
+
+
+Clear all images and containers
+
+    ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
+
+
+
+
+
+
+
+---
+
+
+
 ### &#x1FAA7; Notes :
 
     ❯ flet --version
