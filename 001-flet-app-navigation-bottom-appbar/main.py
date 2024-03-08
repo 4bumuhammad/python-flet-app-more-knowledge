@@ -41,7 +41,7 @@ def main(page: ft.Page):
     page.add(content_1, content_2)
 
 
-ft.app(target=main)
+ft.app(target=main, port=8888)
 
 
 ## - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

@@ -61,7 +61,7 @@
         page.add(content_1, content_2)
 
 
-    ft.app(target=main)
+    ft.app(target=main, port=8888)
 
 
 
@@ -89,14 +89,39 @@ command for deploy web
 ---
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_flet_app_web_1.png" alt="under_conss_flet_app_web_1struction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_web_1.png" alt="ss_flet_app_web_1" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
 
 
-## Docker container
+## Application deployment with Docker-container
+
+    ❯ docker build -t flet-testapp .
+
+    ❯ docker run -d --name flet-testapp-svc -p 8080:8888 flet-testapp
 
 
+
+    # list
+    ❯ docker run -d --name flet-testapp-svc -p 8080:8888 flet-testapp
+
+        243e5aedfeab4e7d93e4943dda88c3d2f111dc19d43b361171d0be553f451b63
+
+
+    ❯ docker ps -a
+
+        CONTAINER ID   IMAGE          COMMAND              CREATED         STATUS         PORTS                    NAMES
+        243e5aedfeab   flet-testapp   "python ./main.py"   3 seconds ago   Up 2 seconds   0.0.0.0:8080->8888/tcp   flet-testapp-svc    
+
+
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_flet_app_container_1.png" alt="ss_flet_app_container_1" style="display: block; margin: 0 auto;">
+</p>
+<p align="center">web</p>
+
+
+---
 
 ### &#x1FAA7; Notes :
 
