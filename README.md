@@ -8,7 +8,7 @@ Reference : `https://flet-controls-gallery.fly.dev`
 ---
 
 <div align="left">
-   &#x1FAA2; <a href="./001-flet-app">Link to view entire 001-flet-app</a>
+   &#x1FAA2; <a href="./001-flet-app-navigation-bottom-appbar">Link to view entire 001-flet-app-navigation-bottom-appbar</a>
 </div>
 
 ---
