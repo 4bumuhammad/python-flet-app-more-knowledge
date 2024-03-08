@@ -65,9 +65,7 @@ command for deploy web
 
     ❯ flet main.py -w
 
-        http://127.0.0.1:57534
-
-
+    
 
 ### Result :
 
