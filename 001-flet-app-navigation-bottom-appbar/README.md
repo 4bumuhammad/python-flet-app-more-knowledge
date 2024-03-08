@@ -94,7 +94,7 @@ command for deploy web
 <p align="center">web</p>
 
 
-## Application deployment with Docker-container
+## Application deployment with Docker container
 
     ❯ docker build -t flet-testapp .
 
