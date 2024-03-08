@@ -1,7 +1,7 @@
 # Flet app more knowledge
 
 
-### Begin Project :
+### &#x1F530; Begin Project :
 
     ❯ pwd
 
