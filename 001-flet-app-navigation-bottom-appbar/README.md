@@ -16,7 +16,7 @@
     ❯ cd <project-name>
 
 
-### Code :
+### &#x1FAB6; Code :
 
     import flet as ft
 
