@@ -11,5 +11,12 @@ Reference : `https://flet-controls-gallery.fly.dev`
    &#x1FAA2; <a href="./001-flet-app-navigation-bottom-appbar">Link to view entire 001-flet-app-navigation-bottom-appbar</a>
 </div>
 
----
+<div align="left">
+   &#x1FAA2; <a href="./002-flet-app-navigation-appbar">Link to view entire 002-flet-app-navigation-appbar</a>
+</div>
 
+<div align="left">
+   &#x1FAA2; <a href="./003-flet-app-navigation-cupertino-appbar">Link to view entire 003-flet-app-navigation-cupertino-appbar</a>
+</div>
+
+---
