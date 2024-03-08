@@ -18,7 +18,27 @@
 
 ### &#x1FAB6; Code :
 
-    <Your-code-is-here>
+    import flet as ft
+
+    def main(page: ft.Page):
+
+        page.theme_mode = ft.ThemeMode.DARK
+        page.vertical_alignment = ft.MainAxisAlignment.CENTER
+        page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+
+        content = ft.Container(
+            content = ft.Column([
+                ft.Text("by Dhony Abu Muhammad", size=15)
+            ])
+        )
+
+        page.add(ft.Image(src=f"/images/helloimage.jpeg"), content)
+
+    ft.app(
+        target=main,
+        assets_dir="assets", 
+        port=8888
+    )
 
 
 
@@ -29,25 +49,51 @@ command for deploy desktop app
     ❯ flet main.py -d 
 
 
-command for deploy web
-
-    ❯ flet main.py -w
-
-    
 
 ### &#x1F3C5; Result :
 
 <p align="center">
-    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_desk_1.png" alt="ss_flet_app_desk_1" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">desktop apps</p>
 
+
 ---
+
+## &#x1F3C6; Application deployment with Docker container
+
+    ❯ docker build -t flet-testapp .
+
+    ❯ docker run -d --name flet-testapp-svc -p 8080:8888 flet-testapp
+
+
+
+    # list
+
+    ❯ docker images
+
+    ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
+
+
 
 <p align="center">
     <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
 </p>
-<p align="center">web</p>
+<p align="center">web | app container</p>
+
+
+Clear all images and containers
+
+    ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
+
+
+
+
+
+
+
+
+---
 
 
 ### &#x1FAA7; Notes :
@@ -55,3 +101,14 @@ command for deploy web
     ❯ flet --version
 
         0.21.1
+
+
+
+    # Program structure :
+    ❯ tree -L 3 -I 'gambar-petunjuk|README.md'
+
+        ├── Dockerfile
+        ├── assets
+        │   └── images
+        │       └── helloimage.jpeg
+        └── main.py    
