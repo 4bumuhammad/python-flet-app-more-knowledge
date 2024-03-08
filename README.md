@@ -19,4 +19,8 @@ Reference : `https://flet-controls-gallery.fly.dev`
    &#x1FAA2; <a href="./003-flet-app-navigation-cupertino-appbar">Link to view entire 003-flet-app-navigation-cupertino-appbar</a>
 </div>
 
+<div align="left">
+   &#x1FAA2; <a href="./004-flet-app-navigation-menubar">Link to view entire 004-flet-app-navigation-menubar</a>
+</div>
+
 ---
