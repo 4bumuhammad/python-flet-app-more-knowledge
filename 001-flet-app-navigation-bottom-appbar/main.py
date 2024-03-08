@@ -8,9 +8,9 @@ def main(page: ft.Page):
     page.floating_action_button_location = ft.FloatingActionButtonLocation.CENTER_DOCKED
 
     page.appbar = ft.AppBar(
-        title=ft.Text("Bottom AppBar Demo"),
+        title=ft.Text("Bottom AppBar Test"),
         center_title=True,
-        bgcolor=ft.colors.GREEN_300,
+        bgcolor=ft.colors.BLUE,
         automatically_imply_leading=False,
     )
     page.bottom_appbar = ft.BottomAppBar(
@@ -26,7 +26,19 @@ def main(page: ft.Page):
         ),
     )
 
-    page.add(ft.Text("Body!"))
+    content_1 = ft.Container(
+        content = ft.Column([
+            ft.Text("Hello From Flet", size=40)
+        ])
+    )
+
+    content_2 = ft.Container(
+        content = ft.Column([
+            ft.Text("by Dhony Abu Muhammad", size=20)
+        ])
+    )
+
+    page.add(content_1, content_2)
 
 
 ft.app(target=main)

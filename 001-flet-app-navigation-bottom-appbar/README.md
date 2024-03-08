@@ -28,9 +28,9 @@
         page.floating_action_button_location = ft.FloatingActionButtonLocation.CENTER_DOCKED
 
         page.appbar = ft.AppBar(
-            title=ft.Text("Bottom AppBar Demo"),
+            title=ft.Text("Bottom AppBar Test"),
             center_title=True,
-            bgcolor=ft.colors.GREEN_300,
+            bgcolor=ft.colors.BLUE,
             automatically_imply_leading=False,
         )
         page.bottom_appbar = ft.BottomAppBar(
@@ -46,7 +46,19 @@
             ),
         )
 
-        page.add(ft.Text("Body!"))
+        content_1 = ft.Container(
+            content = ft.Column([
+                ft.Text("Hello From Flet", size=40)
+            ])
+        )
+
+        content_2 = ft.Container(
+            content = ft.Column([
+                ft.Text("by Dhony Abu Muhammad", size=20)
+            ])
+        )
+
+        page.add(content_1, content_2)
 
 
     ft.app(target=main)
@@ -70,14 +82,14 @@ command for deploy web
 ### Result :
 
 <p align="center">
-    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_desk_1.png" alt="ss_flet_app_desk_1" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">desktop apps</p>
 
 ---
 
 <p align="center">
-    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_web_1.png" alt="under_conss_flet_app_web_1struction_small" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
 
