@@ -117,11 +117,19 @@ command for deploy web
         243e5aedfeab   flet-testapp   "python ./main.py"   3 seconds ago   Up 2 seconds   0.0.0.0:8080->8888/tcp   flet-testapp-svc    
 
 
-
 <p align="center">
     <img src="./gambar-petunjuk/ss_flet_app_container_1.png" alt="ss_flet_app_container_1" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web</p>
+
+
+Clear all images and containers
+
+    ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
+
+        243e5aedfeab
+        Untagged: flet-testapp:latest
+        Deleted: sha256:70e0234046d232312d86c10ba0c89971d7bd9e9fba7ef2090bf97fba940afbb7
 
 
 ---
