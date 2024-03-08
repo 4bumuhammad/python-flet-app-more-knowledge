@@ -30,7 +30,7 @@
             leading=ft.Icon(ft.icons.PALETTE),
             bgcolor=ft.colors.SURFACE_VARIANT,
             trailing=ft.Icon(ft.icons.WB_SUNNY_OUTLINED),
-        middle=ft.Text("CupertinoAppBar Example"),
+        middle=ft.Text("CupertinoAppBar Test"),
         )
 
         content_1 = ft.Container(
