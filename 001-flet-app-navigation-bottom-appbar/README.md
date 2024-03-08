@@ -106,10 +106,6 @@ command for deploy web
 
 
     # list
-    ❯ docker run -d --name flet-testapp-svc -p 8080:8888 flet-testapp
-
-        243e5aedfeab4e7d93e4943dda88c3d2f111dc19d43b361171d0be553f451b63
-
 
     ❯ docker ps -a
 
@@ -120,7 +116,7 @@ command for deploy web
 <p align="center">
     <img src="./gambar-petunjuk/ss_flet_app_container_1.png" alt="ss_flet_app_container_1" style="display: block; margin: 0 auto;">
 </p>
-<p align="center">web</p>
+<p align="center">web | app container</p>
 
 
 Clear all images and containers
