@@ -150,16 +150,15 @@ command for deploy desktop app
     ❯ docker images
 
         REPOSITORY     TAG       IMAGE ID       CREATED         SIZE
-        flet-testapp   latest    4755ee642134   4 seconds ago   162MB
+        flet-testapp   latest    b1e0be51921d   8 seconds ago   162MB
 
     ❯ docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}\t{{.Ports}}"
 
-        CONTAINER ID   IMAGE          STATUS          NAMES              PORTS
-        2cb4dcfa9f5c   flet-testapp   Up 14 seconds   flet-testapp-svc   0.0.0.0:8080->8888/tcp 
-
+        CONTAINER ID   IMAGE          STATUS         NAMES              PORTS
+        afd6467cede0   flet-testapp   Up 8 seconds   flet-testapp-svc   0.0.0.0:8080->8888/tcp
 
 <p align="center">
-    <img src="./gambar-petunjuk/under_construction_small.png" alt="under_construction_small" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_flet_app_container_1.png" alt="ss_flet_app_container_1" style="display: block; margin: 0 auto;">
 </p>
 <p align="center">web | app container</p>
 
@@ -168,9 +167,9 @@ Clear all images and containers
 
     ❯ docker rm -f $(docker ps -aq) && docker rmi -f $(docker images -q)
 
-        2cb4dcfa9f5c
+        afd6467cede0
         Untagged: flet-testapp:latest
-        Deleted: sha256:4755ee64213490b249b0213bbae2194902405027075334821ca8e364b43d4fe2
+        Deleted: sha256:b1e0be51921d15979b79cefa1795452612cbef1d5dc1e16b758ff8d4c7cb66af
 
 
 
