@@ -23,15 +23,9 @@ Reference : `https://flet-controls-gallery.fly.dev`
    &#x1FAA2; <a href="./004-flet-app-navigation-menubar">Link to view entire 004-flet-app-navigation-menubar</a>
 </div>
 
-
 <div align="left">
    &#x1FAA2; <a href="./005-flet-app-customize-assets_directories">Link to view entire 005-flet-app-customize-assets_directories</a>
 </div>
-
-<div align="left">
-   &#x1FAA2; <a href="./006-flet-app-title_text-horizontal_alignment">Link to view entire 006-flet-app-title_text-horizontal_alignment</a>
-</div>
-
 
 <div align="left">
    &#x1FAA2; <a href="./006-flet-app-title_text-horizontal_alignment">Link to view entire 006-flet-app-title_text-horizontal_alignment</a>
