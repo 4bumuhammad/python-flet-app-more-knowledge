@@ -79,7 +79,7 @@ command for deploy web
 
     
 
-### Result :
+### &#x1F3C5; Result :
 
 <p align="center">
     <img src="./gambar-petunjuk/ss_flet_app_desk_1.png" alt="ss_flet_app_desk_1" style="display: block; margin: 0 auto;">
@@ -94,7 +94,7 @@ command for deploy web
 <p align="center">web</p>
 
 
-### Notes :
+### &#x1FAA7; Notes :
 
     ❯ flet --version
 
